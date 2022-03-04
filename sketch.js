@@ -73,13 +73,14 @@ function preload() {
   myimg[4] = loadImage("assets/oldeye.jpg");
 }
 function setup() {
+  pixelDensity(1);
   canvas = createCanvas(w, h, WEBGL);
   gl = this._renderer.GL;
   gl.enable(gl.BLEND);
   gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
 
   colorMode(RGB);
-  dx = 100;
+  dx = 120;
   dy = dx * 1.5;
   time = 0.0;
   rectMode(CENTER);
