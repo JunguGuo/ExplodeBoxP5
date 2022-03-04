@@ -80,7 +80,7 @@ function setup() {
   gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
 
   colorMode(RGB);
-  dx = 120;
+  dx = 200;
   dy = dx * 1.5;
   time = 0.0;
   rectMode(CENTER);
