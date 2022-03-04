@@ -116,10 +116,10 @@ function draw() {
   plane(width, (1281 * width) / 2207);
   pop();
 
-  for (let b of bricks) {
-    b.update();
-    b.render();
-  }
+  // for (let b of bricks) {
+  //   b.update();
+  //   b.render();
+  // }
   if (value==1) {
   push();
   translate(mouseX-width/2, mouseY-height/2, 120);
